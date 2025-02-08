@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+        .answer {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            background-color: #f0f0f0;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+        .answer:hover {
+            background-color: #e0e0e0;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test</h1>
+    <p>Test?</p>
+    <button class="answer" onclick="checkAnswer('wrong')">Test (fout)</button>
+    <button class="answer" onclick="checkAnswer('correct')">Test (goed)</button>
+    <button class="answer" onclick="checkAnswer('wrong')">Test (fout)</button>
+
+    <div id="result" class="result"></div>
+
+    <script>
+        // Check of antwoord de juiste argument heeft
+        function checkAnswer(answer) {
+            const resultDiv = document.getElementById('result');
+            if (answer === 'correct') {
+                resultDiv.textContent = 'Correct!';
+                resultDiv.style.color = 'green';
+            } else {
+                resultDiv.textContent = 'Fout, probeer opnieuw';
+                resultDiv.style.color = 'red';
+            }
+        }
+    </script>
+</body>
+</html>
