@@ -25,7 +25,7 @@ def test_vraag():
 
 # Voor proof of concept, de link van de QR code gaat eerst naar de root directory
 @app.route('/VRAAG1META')
-def redirect():
+def redirect_to_root():
     return redirect("/")
 
 # Laad app in op netwerk en in debug mode
