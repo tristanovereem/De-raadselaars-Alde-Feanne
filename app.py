@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, redirect
 app = Flask(__name__)
 
 # TODO: Zet applicatie op om web applicatie te worden, het is nu alleen een website
@@ -22,6 +22,11 @@ def index():
 @app.route('/test-vraag')
 def test_vraag():
     return render_template("vraag.html")
+
+# Voor proof of concept, de link van de QR code gaat eerst naar de root directory
+@app.route('/VRAAG1META')
+def redirect():
+    return redirect("/")
 
 # Laad app in op netwerk en in debug mode
 # host='0.0.0.0' maakt de app toegangkelijk voor iedereen op het netwerk, gebruik niet in openbare ruimtes

@@ -72,10 +72,10 @@
             let imageData = context.getImageData(0, 0, canvas.width, canvas.height);
             let code = jsQR(imageData.data, canvas.width, canvas.height);
 
-            // Als specifieke link (wikipedia als voorbeeld) de link is, gaan we naar de vraag pagina
+            // Als specifieke link de QR code link is, gaan we naar de vraag pagina
             if (code) {
                 console.log("QR code gevonden! Link: ", code.data);
-                if (code.data === "https://nl.wikipedia.org/") {  
+                if (code.data === "https://aldefeanentest.pythonanywhere.com/VRAAG1META") {  
                     console.log("YEAH! HET  WERKT!!");
                     window.location.href = "/test-vraag"; 
                 }
