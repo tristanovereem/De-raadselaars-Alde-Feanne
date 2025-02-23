@@ -21,5 +21,6 @@ Wanneer de gebruiker de tocht voltooit krijgen hun korting op bepaalde producten
 ## Opzet
 - Ga naar https://aldefeanentest.pythonanywhere.com/
 - Sta camera permissies toe
-- Wijs de camera naar de onderstaande QR Code ([bron](https://nl.wikipedia.org/wiki/QR-code#/media/Bestand:Qr-nl-wikipedia-or.svg))
-![image](https://github.com/user-attachments/assets/06b78807-0147-40dd-9c1e-733d2be1754b)
+- Wijs de camera naar de onderstaande QR Code ([bron](https://aldefeanentest.pythonanywhere.com/VRAAG1META))
+![image](https://github.com/user-attachments/assets/1e55d34e-e032-499f-a01f-68c40ddea9e4)
+
