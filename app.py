@@ -19,13 +19,17 @@ def index():
     return render_template('index.html') 
 
 # Laat test vraag zien
-@app.route('/test-vraag')
-def test_vraag():
-    return render_template("vraag.html")
+@app.route('/test-vraag-1')
+def test_vraag_1():
+    return render_template("vraag1.html")
 
-# Voor proof of concept, de link van de QR code gaat eerst naar de root directory
-@app.route('/VRAAG1META')
-def redirect_to_root():
+@app.route('/test-vraag-2')
+def test_vraag_2():
+    return render_template("vraag2.html")
+
+# Redirect elke ongeldige directory naar de root
+@app.errorhandler(404)
+def redirect_to_root(e):
     return redirect("/")
 
 # Laad app in op netwerk en in debug mode
