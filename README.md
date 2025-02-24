@@ -1,7 +1,8 @@
 # De-raadselaars-Alde-Feanne
 Deze repository bevat de code voor de prototype van de groepsopdracht "meer dan een informatiebord!", gegeven door de provincie Fryslan, team gebiedsontwikkeling.
 
-Deze prototype is gemaakt met behulp van Flask, Javascript en HTML/CSS. Verder wordt [pythonanywhere](https://www.pythonanywhere.com/) gebruikt voor hosting.
+Deze prototype is gemaakt met behulp van Flask, Javascript en HTML/CSS. 
+Verder wordt [pythonanywhere](https://www.pythonanywhere.com/) gebruikt voor hosting.
 
 <br>
 <br>
@@ -20,7 +21,7 @@ Wanneer de gebruiker de tocht voltooit krijgen hun korting op bepaalde producten
 
 ## Opzet
 - Wijs de camera van uw telefoon naar één van de twee onderstaande QR Code's
-- Sta camera permissies toe in op we website
+- Sta camera permissies toe op de website
 - Scan de onderstaande QR Code's met de camera op de website
 
 (QR code vraag 1 ([bron](https://aldefeanentest.pythonanywhere.com/VRAAG1META)))
