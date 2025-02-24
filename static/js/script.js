@@ -69,6 +69,14 @@ function scanQRCode() {
             console.log("YEAH! HET  WERKT!!");
             window.location.href = "/test-vraag-2"; 
         }
+        if (code.data === "https://aldefeanentest.pythonanywhere.com/VRAAG3META") {  
+            console.log("YEAH! HET  WERKT!!");
+            window.location.href = "/test-vraag-3"; 
+        }
+        if (code.data === "https://aldefeanentest.pythonanywhere.com/VRAAG4META") {  
+            console.log("YEAH! HET  WERKT!!");
+            window.location.href = "/test-vraag-4"; 
+        }
     } else {
         console.log("Geen QR code gevonden");
     }

@@ -27,6 +27,14 @@ def test_vraag_1():
 def test_vraag_2():
     return render_template("vraag2.html")
 
+@app.route('/test-vraag-3')
+def test_vraag_2():
+    return render_template("vraag3.html")
+
+@app.route('/test-vraag-4')
+def test_vraag_2():
+    return render_template("vraag4.html")
+
 # Redirect elke ongeldige directory naar de root
 @app.errorhandler(404)
 def redirect_to_root(e):
