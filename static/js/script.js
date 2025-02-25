@@ -99,7 +99,7 @@ function checkAnswer(answer) {
     } else {
         main.style.display = "none";
         resultCon.style.display = "flex"
-        resultDiv.textContent = 'Helees, dit was niet het juiste antwoord.';
+        resultDiv.textContent = 'Helaas, dit was niet het juiste antwoord.';
         resultDiv.style.color = 'red';
     }
 }
