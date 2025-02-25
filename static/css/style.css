@@ -31,7 +31,7 @@ h1 {
     background-color: #e0e0e0;
 }
 .result {
-    font-size: 7vh;
+    font-size: 5vh;
     text-align: center;
     margin-top: 20px;
     font-weight: bold;
@@ -47,11 +47,12 @@ h1 {
     height: 50vh;
     width: auto;
     background-color: lightgrey;
+    opacity: 80%;
 }
 
 /* de enigste manier hoe ik die go back button kon scalen */
 input {
-    font-size: 4vh;
+    font-size: 2vh;
 }
 
 .container {
