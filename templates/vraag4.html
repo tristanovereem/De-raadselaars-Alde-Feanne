@@ -7,15 +7,21 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <h1>Welke 5 dieren maken deel uit van de "Big 5 van alde feanen"</h1>
-    <p>Kies het goede antwoord.</p>
-    <div class="container">
-        <button class="answer" onclick="checkAnswer('wrong')">Otter, Zeearend, Ree, Zeehond, Neulpaard</button>
-        <button class="answer" onclick="checkAnswer('wrong')">Leeuw, Luipaard, Olifant, Buffel, Neushoorn</button>
-        <button class="answer" onclick="checkAnswer('correct')">Zeearend, Ree, Roerdomp, Ooievaar, Aalscholver</button>
+    <div class="main">
+        <h1>Welke 5 dieren maken deel uit van de "Big 5 van alde feanen"</h1>
+        <p>Kies het goede antwoord.</p>
+        <div class="container">
+            <button class="answer" onclick="checkAnswer('wrong')">Otter, Zeearend, Ree, Zeehond, Neulpaard</button>
+            <button class="answer" onclick="checkAnswer('wrong')">Leeuw, Luipaard, Olifant, Buffel, Neushoorn</button>
+            <button class="answer" onclick="checkAnswer('correct')">Zeearend, Ree, Roerdomp, Ooievaar, Aalscholver</button>
+        </div>
     </div>
 
-    <div id="result" class="result"></div>
+
+    <div class="resultContainer">
+        <div id="result" class="result"></div>
+        <input type="button" value="Go to page" onclick="location.href='./index.html'"/>
+    </div>
 
     <script src="/static/js/script.js"></script>
 

@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scan QR Code</title>
+    <link rel="stylesheet" href="/static/css/camerapage.css">
     <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.min.js"></script>
 </head>
 <body>
-    <h1>QR Scanner</h1>
-    <video id="video" autoplay playsinline></video>
-    <button onclick="switchCamera()">Switch Camera</button>
+    <div class="container">
+        <h1>QR Scanner</h1>
+        <video id="video" autoplay playsinline></video>
+        <button onclick="switchCamera()">Switch Camera</button>    
+    </div>
 
     <script src="/static/js/script.js"></script>
 

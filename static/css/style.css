@@ -8,7 +8,6 @@ body {
     background-size: cover; 
     background-position: center; 
     min-height: 100vh;
-    -webkit-text-stroke: black 0.1px;
     color: white;
     overflow-x: hidden;
     display: flex;
@@ -28,10 +27,28 @@ body {
     background-color: #e0e0e0;
 }
 .result {
+    font-size: 7vh;
+    text-align: center;
     margin-top: 20px;
-    font-size: 18px;
     font-weight: bold;
 }
+.resultContainer {
+    align-items: center;
+    justify-content: center;
+    display: none;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 50vh;
+    width: auto;
+    background-color: lightgrey;
+}
+
+/* de enigste manier hoe ik die go back button kon scalen */
+input {
+    font-size: 4vh;
+}
+
 .container {
     display: flex;
     flex-direction: column;

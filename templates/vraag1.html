@@ -7,15 +7,21 @@
     <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
-    <h1>Hoe is het gebied de Alde Feanen gevormd?</h1>
-    <p>Kies het goede antwoord.</p>
-    <div class="container">
-        <button class="answer" onclick="checkAnswer('wrong')">Door een vulkaan uitbarsting.</button>
-        <button class="answer" onclick="checkAnswer('correct')">Door veenvorming en turfwinning.</button>
-        <button class="answer" onclick="checkAnswer('wrong')">Het is een kunstmatig gebied.</button>
+    <div class="main">
+        <h1>Hoe is het gebied de Alde Feanen gevormd?</h1>
+        <p>Kies het goede antwoord.</p>
+        <div class="container">
+            <button class="answer" onclick="checkAnswer('wrong')">Door een vulkaan uitbarsting.</button>
+            <button class="answer" onclick="checkAnswer('correct')">Door veenvorming en turfwinning.</button>
+            <button class="answer" onclick="checkAnswer('wrong')">Het is een kunstmatig gebied.</button>
+        </div>
     </div>
 
-    <div id="result" class="result"></div>
+    <div class="resultContainer">
+        <div id="result" class="result"></div>
+        <input type="button" value="Go to page" onclick="location.href='./index.html'"/>
+    </div>
+
 
     <script src="/static/js/script.js"></script>
 
