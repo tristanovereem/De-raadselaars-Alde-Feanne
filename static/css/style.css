@@ -3,7 +3,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url("/static/images/aldefeanengeschiedenis.jpg");
+    background-image: url("/static/images/aldefeanengeschiedenis1.jpeg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center; 
@@ -13,6 +13,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+h1 {
+    -webkit-text-stroke: black 0.4px;
 }
 
 .answer {
