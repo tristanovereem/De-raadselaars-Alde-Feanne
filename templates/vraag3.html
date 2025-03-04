@@ -25,5 +25,27 @@
 
     <script src="/static/js/button.js"></script>
 
+    <div class="easy">
+        <div class="easy-main">
+            <h1>n welke provincie ligt Alde Feanen?</h1>
+            <p>Kies het goede antwoord.</p>
+            <div class="easy-container">
+                <button class="answer" onclick="checkAnswer('wrong')">Groningen</button>
+                <button class="answer" onclick="checkAnswer('wrong')">Overijsel</button>
+                <button class="answer" onclick="checkAnswer('correct')">Friesland</button>
+            </div>
+        </div>
+    
+    
+        <div class="easy-resultContainer">
+            <div id="result" class="easy-result"></div>
+            <p>Het juiste antwoord is: "Friesland" Alde Feanen ligt in de mooiste provincie!</p>
+            <input type="button" value="Ga terug naar de QR code scanner." onclick="location.href='./index.html'"/>
+        </div>
+    
+
+    
+    </div>
+
 </body>
 </html>

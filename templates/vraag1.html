@@ -26,5 +26,27 @@
 
     <script src="/static/js/button.js"></script>
 
+    <div class="easy">
+        <div class="easy-main">
+            <h1>Wat kun je niet in Alde Feanen doen?</h1>
+            <p>Kies het goede antwoord.</p>
+            <div class="easy-container">
+                <button class="answer" onclick="checkAnswer('correct')">Skiën</button>
+                <button class="answer" onclick="checkAnswer('wrong')">Kanoën</button>
+                <button class="answer" onclick="checkAnswer('wrong')">Fietsen</button>
+            </div>
+        </div>
+    
+    
+        <div class="easy-resultContainer">
+            <div id="result" class="easy-result"></div>
+            <p>Het juiste antwoord is: "Skiën" Je kunt in Alde Feanen veel doen, Maar Skiën kun je hier niet doen! </p>
+            <input type="button" value="Ga terug naar de QR code scanner." onclick="location.href='./index.html'"/>
+        </div>
+    
+
+    
+    </div>
+
 </body>
 </html>
