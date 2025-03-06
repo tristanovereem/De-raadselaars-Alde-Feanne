@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <h1><!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Quiz</title>
+                <link rel="stylesheet" href="/static/css/style.css">
+            </head>
+            <body>
+                <div class="main">
+                    <h1>Alde Feanen is een beschermd natuurgebied binnen het Natura 2000-netwerk. Wat betekent dit?</h1>
+                    <p>Kies het goede antwoord.</p>
+                    <div class="container">
+                        <button class="answer" onclick="checkAnswer('wrong')">Het gebied wordt beheerd door de overheid</button>
+                        <button class="answer" onclick="checkAnswer('wrong')">Het gebied is afgesloten voor publiek.</button>
+                        <button class="answer" onclick="checkAnswer('correct')">Het gebied is belangrijk voor de biodiversiteit in Europa.</button>
+                    </div>
+                </div>
+            
+            
+                <div class="resultContainer">
+                    <div id="result" class="result"></div>
+                    <p>Het juiste antwoord is: Het gebied is belangrijk voor de biodiversiteit in Europa, Veel gebieden krijgen deze titel en hierdoor krijgt de overheid geld om het te onderhouden! </p>
+                    <input type="button" value="Ga terug naar de QR code scanner." onclick="location.href='./index.html'"/>
+                </div>
+
+                <script src="/static/js/button.js"></script>
+
+
+                <div class="easy">
+                    <div class="easy-main">
+                        <h1>Wat is een van de typische dieren die je in Alde Feanen kunt zien</h1>
+                        <p>Kies het goede antwoord.</p>
+                        <div class="easy-container">
+                            <button class="answer" onclick="checkAnswer('correct')">Herten</button>
+                            <button class="answer" onclick="checkAnswer('wrong')">Olifanten</button>
+                            <button class="answer" onclick="checkAnswer('wrong')">Neulpaard</button>
+                        </div>
+                    </div>
+                
+                
+                    <div class="easy-resultContainer">
+                        <div id="result" class="easy-result"></div>
+                        <p>Het juiste antwoord is: Herten, Je kan veel dieren vinden en een hert is eentje die je vaak kunt vinden!</p>
+                        <input type="button" value="Ga terug naar de QR code scanner." onclick="location.href='./index.html'"/>
+                    </div>
+                
+
+                
+                </div>
+            
+
+</body>
+</html>
